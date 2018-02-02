@@ -1,0 +1,224 @@
+.reviews {
+  padding: 30px 0 60px;
+  background-color: #fafafa;
+  h2 {
+    text-align: center;
+    color: #323642;
+    font-family: 'BodoniCyrillic', sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    margin: 0 0 30px;
+    @media (min-width: 100px) and (max-width: 480px) {
+      font-size: 24px;
+    }
+  }
+  .flex-ct {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    @media (min-width: 100px) and (max-width: 1023px){
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+    }
+    .slick-dots li.slick-active button:before {
+      background: url("../img/gallery/dot_active.png") no-repeat 100% 100%;
+      -webkit-background-size: contain;
+      background-size: contain;
+    }
+    .slick-dots li button:before {
+      width: 10px;
+      background: url("../img/gallery/dot.png") no-repeat 100% 100%;
+      -webkit-background-size: contain;
+      background-size: contain;
+      content: '';
+    }
+    .slick-prev:before {
+      content: '';
+    }
+    .single-item {
+      margin: -4px 0 0;
+      width: 49%;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      @media (min-width: 100px) and (max-width: 1023px){
+        width: 100%;
+      }
+      .slick-dots {
+        @media screen and (min-width: 481px) {
+          display: none!important;
+        }
+      }
+      .slick-arrow {
+        border: 1px solid #83868d;
+        height: 36px;
+        width: 36px;
+        background-color: #f8f8f8;
+        img {
+          width: 18px;
+          height: 10px;
+          margin: 0 auto;
+          -webkit-transform: rotate(270deg);
+          -ms-transform: rotate(270deg);
+          transform: rotate(270deg);
+        }
+        @media (min-width: 100px) and (max-width: 480px) {
+          display: none!important;
+        }
+      }
+      .slick-next {
+        left: 70px;
+      }
+      .slick-prev {
+        left: 30px;
+      }
+      .slick-prev, .slick-next {
+        top: inherit;
+        z-index: 1;
+        bottom: 65px;
+        &::before {
+          content: '';
+          display: none;
+        }
+      }
+      .main-reviews-ct {
+        padding: 30px;
+        background: url("../img/reviews/bg_for_review.png") no-repeat 100% 100%;
+        -webkit-background-size: cover;
+        background-size: cover;
+        outline: none;
+        height: 382px;
+        &:hover {
+          outline: none;
+        }
+        @media (min-width: 100px) and (max-width: 480px) {
+          height: auto;
+          padding: 30px 30px 100px;
+        }
+        .personality-ct {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;;
+          margin: 0 0 30px;
+          img {
+            margin: 0 25px 0 0;
+            -webkit-align-self: center;
+            -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
+          }
+          .personality-ct_id {
+            -webkit-align-self: center;
+            -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
+            .personality-ct_id__name {
+              font-family: 'Roboto-Regular', sans-serif;
+              color: #ffffff;
+              font-size: 20px;
+              font-weight: 500;
+              margin: 0 0 5px;
+            }
+            .personality-ct_id__data {
+              font-family: 'Roboto-Regular', sans-serif;
+              font-size: 14px;
+              font-weight: 400;
+              color: #f3f3f3;
+            }
+          }
+        }
+        .rev_description {
+          p {
+            color: #f3f3f3;
+            font-family: 'Roboto-Italic', sans-serif;
+            font-size: 16px;
+            @media (min-width: 100px) and (max-width: 480px) {
+              font-size: 14px;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+    .slider-nav {
+      width: 49%;
+      @media (min-width: 100px) and (max-width: 1023px){
+        width: 100%;
+      }
+      @media (min-width: 100px) and (max-width: 480px){
+        display: none;
+      }
+      .slick-list {
+        height: 447px!important;
+      }
+      .slick-dots {
+        right: 50%;
+        @media (min-width: 100px) and (max-width: 1023px){
+          right: 0;
+        }
+      }
+      .dop-rev-ct_row {
+        -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.52);
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.52);
+        background-color: #17191f;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+        height: 165px!important;
+        padding: 18px;
+        margin: 0 0 22px;
+        outline: none;
+        &:hover {
+          outline: none;
+        }
+        .reviews_face-ct {
+          margin: 0 10px 0 0 ;
+          width: 73px;
+          height: 73px;
+        }
+        .reviews__face {
+          width: 100%;
+          height: 100%;
+        }
+        .row_text {
+          width: 76%;
+          -webkit-align-self: center;
+          -ms-flex-item-align: center;
+          -ms-grid-row-align: center;
+          align-self: center;
+          @media (min-width: 667px) and (max-width: 1023px) {
+            width: 85%;
+          }
+          .row__name {
+            color: #ffffff;
+            font-family: 'Roboto-Medium', sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            margin: 0 0 7px;
+          }
+          .row__text {
+            color: #f3f3f3;
+            font-family: 'Roboto-Light', sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+          }
+        }
+        .row__quote {
+          position: absolute;
+          top: 20px;
+          right: 10px;
+        }
+      }
+    }
+  }
+}

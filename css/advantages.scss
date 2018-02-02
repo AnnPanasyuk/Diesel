@@ -1,0 +1,277 @@
+.advantages {
+  padding: 50px 0 120px;
+  background: url("../img/advantages/bg-for-advantages.jpeg") no-repeat 50% 0%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  @media (min-width: 100px) and (max-width: 767px) {
+    padding: 50px 0 60px;
+  }
+  @media (min-width: 100px) and (max-width: 480px){
+    padding: 50px 0 0;
+  }
+  .container {
+    @media (min-width: 100px) and (max-width: 480px){
+      width: 100%;
+    }
+  }
+  .timer {
+    @media (min-width: 100px) and (max-width: 480px){
+      display: none;
+    }
+  }
+  h2 {
+    color: #323642;
+    font-family: 'BodoniCyrillic', sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    margin: 0 0 75px;
+    width: 54%;
+    @media (min-width: 100px) and (max-width: 767px) {
+      margin: 0 0 30px;
+    }
+    @media (min-width: 100px) and (max-width: 480px){
+      text-align: center;
+      width: 100%;
+      font-size: 24px;
+    }
+  }
+  .flex-ct {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    @media (min-width: 100px) and (max-width: 767px) {
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+    }
+    .advantages_col {
+      width: 49.8%;
+      @media (min-width: 100px) and (max-width: 767px) {
+        width: 100%;
+      }
+      .advantages_col_card {
+        padding: 38px 62px 38px 90px;
+        position: relative;
+        background-color: #212635;
+        margin: 0 0 20px;
+        @media (min-width: 100px) and (max-width: 480px){
+          padding: 40px 0;
+          opacity: 0.9;
+        }
+        .advantages_col_card__count {
+          position: absolute;
+          top: 25px;
+          left: -20px;
+          color: #f8f8f8;
+          font-family: 'Akrobat-SemiBold', sans-serif;
+          font-size: 90px;
+          font-weight: 400;
+          @media (min-width: 100px) and (max-width: 480px){
+            display: none;
+          }
+        }
+        .text-ct {
+          .text-ct__caption {
+            color: #fffefe;
+            font-family: 'BodoniFLF-Roman', sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            margin: 0 0 20px;
+            @media (min-width: 100px) and (max-width: 480px){
+              width: 100%;
+              max-width: 290px;
+              margin: 0 auto 20px;
+              font-size: 21px;
+            }
+          }
+          .text-ct__main {
+            color: #ebebeb;
+            line-height: 1.3;
+            font-family: 'Roboto-Regular', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            span {
+              color: #e8b492;
+            }
+            @media (min-width: 100px) and (max-width: 480px){
+              width: 100%;
+              max-width: 290px;
+              margin: 0 auto;
+            }
+          }
+        }
+      }
+      .advantages_col_card-last {
+        @media (min-width: 100px) and (max-width: 480px) {
+          margin: 0;
+        }
+      }
+    }
+    .advantages_col-2 {
+      margin: 50px 0 0;
+      @media (min-width: 100px) and (max-width: 767px) {
+        margin: 0;
+      }
+    }
+  }
+}
+.timer {
+  width: 34%;
+  margin: 0 auto 100px;
+  @media (min-width: 100px) and (max-width: 768px) {
+    width: 50%;
+    margin: 0 auto 50px;
+  }
+  .advantages__discount-end {
+    color: #202122;
+    font-family: 'Segoe UI - Semi Bold', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 0 15px;
+    font-weight: 400;
+  }
+}
+.time {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  li {
+    list-style: none;
+    color: #fff;
+    font-size: 52px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    font-family: 'HelveticaNeue-CondensedBold', sans-serif;
+    @media (min-width: 100px) and (max-width: 1024px){
+      font-size: 48px;
+    }
+    @media (min-width: 100px) and (max-width: 767px) {
+      font-size: 40px;
+    }
+  }
+}
+.ulForTimer {
+  position: relative;
+  width: 20%;
+  padding: 2px 2px 5px;
+  background-color: #141517;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  ul {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+  hr {
+    position: absolute;
+    top: 50%;
+    margin: 0;
+    left: 0;
+    height: 1px;
+    border: none;
+    color: #4F4F4F;
+    background-color: #4F4F4F;
+    width: 100%;
+  }
+  .ring {
+    position: absolute;
+    top: 44%;
+    width: 2px;
+    height: 6px;
+    -webkit-box-shadow: 0 1px 0 #131416;
+    box-shadow: 0 1px 0 #131416;
+    background-color: #252526;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.1)));
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 100%);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 100%);
+  }
+  .ring-left {
+    left: 0;
+    border: 1px solid #fff;
+    border-left: 0;
+  }
+  .ring-right {
+    right: 0;
+    border: 1px solid #fff;
+    border-right: 0;
+  }
+  .underneath {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 10px;
+  }
+}
+.time-bg {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  text-align: center;
+}
+.time-name {
+  width: 92%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 5px auto 0;
+  li {
+    color: #353535;
+    font-family: 'HelveticaNeue-CondensedBold', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: -0.8px;
+    &:first-child {
+      margin-left: 10px;
+      @media (min-width: 100px) and (max-width: 1024px){
+        margin-left: 5px;
+      }
+    }
+    &:nth-child(2) {
+      @media (min-width: 100px) and (max-width: 1024px){
+        margin-left: 7px;
+      }
+    }
+  }
+}

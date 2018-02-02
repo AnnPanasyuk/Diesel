@@ -1,0 +1,1 @@
+$("body").on("click",".bottom .price-ct_btn a, .gallery a, .hero a",function(){var t=$($(this).attr("href")).offset().top;return $("html,body").animate({scrollTop:t-50+"px"},800),!1}),$("body").on("click",".header a",function(){var t=$($(this).attr("href")).offset().top;return $("html,body").animate({scrollTop:t},800),!1});

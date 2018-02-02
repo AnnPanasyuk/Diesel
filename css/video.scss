@@ -1,0 +1,81 @@
+.video {
+  background: url("../img/video/bg_for_video.png") no-repeat 100% 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 50px 0;
+  @media (min-width: 100px) and (max-width: 480px) {
+    background: url("../img/video/bg-for-video-320.png") no-repeat 100% 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 40px 0 60px;
+  }
+  h2 {
+    text-align: center;
+    color: #f8f8f8;
+    font-family: 'BodoniCyrillic', sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    margin: 0 0 15px;
+    @media (min-width: 100px) and (max-width: 480px) {
+      font-size: 24px;
+    }
+  }
+  iframe {
+    width: 95%;
+    //width: 946px;
+    height: 532px;
+    display: block;
+    margin: 0 auto;
+    @media screen and (min-width: 1350px){
+      width: 946px;
+    }
+    @media (min-width: 100px) and (max-width: 1024px) {
+      height: 400px;
+    }
+    @media (min-width: 100px) and (max-width: 768px) {
+      height: 350px;
+    }
+    @media (min-width: 100px) and (max-width: 568px) {
+      height: 280px;
+    }
+    @media (min-width: 100px) and (max-width: 480px) {
+      width: 272px;
+      height: 153px;
+    }
+    @media (min-width: 100px) and (max-width: 375px) {
+      width: 100%;
+    }
+  }
+  .video__description {
+    text-align: center;
+    color: #e3e3e3;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 40px;
+    @media (min-width: 100px) and (max-width: 480px) {
+      font-size: 16px;
+    }
+  }
+  .video__sale {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'BodoniCyrillic', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 50px 0 15px;
+    @media (min-width: 100px) and (max-width: 480px) {
+      font-size: 20px;
+    }
+  }
+  .video__discount {
+    text-align: center;
+    font-family: 'BodoniCyrillic', sans-serif;
+    font-weight: 400;
+    color: #fd3d3d;
+    font-size: 33px;
+    @media (min-width: 100px) and (max-width: 480px) {
+      font-size: 28px;
+    }
+  }
+}

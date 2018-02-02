@@ -1,0 +1,13 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  @media (min-width: 100px) and (max-width: 1365px) {
+    width: 80%; //74%
+    margin: 0 auto;
+  }
+}
+a, button {
+  &:hover, &:active, &:focus {
+    cursor: pointer;
+  }
+}
